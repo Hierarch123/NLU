@@ -28,7 +28,7 @@ This model is based upon a Random Forest classifier that was trained on over 23K
 - **Language(s):** English
 - **Model type:** Supervised
 - **Model architecture:** Random Forest
-- **Finetuned from model [optional]:** bert-base-uncased
+- **Finetuned from model [optional]:** TF-IDF Vectorization
 
 ### Model Resources
 
