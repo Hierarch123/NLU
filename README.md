@@ -29,6 +29,3 @@ A RandomForest model is trained with class weight balancing to accommodate label
 
 ## Predictions:
 The trained model is used to predict the test dataset. Predictions are saved in a CSV file named Group_33_A.csv.
-
-## Evaluations:
-The model's performance on the split test set from the training data is printed as a classification report, showing precision, recall, F1-score, and support for each class.
