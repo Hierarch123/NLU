@@ -1,7 +1,7 @@
 # Evidence Detection Model using RandomForest
 
 ## Project Overview:
-This project develops a RandomForest classifier for the task of evidence detection, which is part of the COMP34812 coursework. It involves preprocessing text data, training a RandomForest model, and predicting whether the evidence supports a given claim.
+This project develops a RandomForest classifier for the task of evidence detection. It involves preprocessing text data, training a RandomForest model, and predicting whether the evidence supports a given claim.
 
 ## Installation:
 Before running the code, ensure that the following Python packages are installed:
@@ -10,8 +10,10 @@ pip install pandas scikit-learn nltk joblib
 '''
 
 Additionally, you need to download the NLTK stopwords with:
+'''python
 import nltk
 nltk.download('stopwords')
+'''
 
 ## File Descriptions:
 - `train.csv` - The training dataset containing claims, evidence, and labels.
