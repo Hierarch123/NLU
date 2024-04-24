@@ -5,15 +5,15 @@ This project develops a RandomForest classifier for the task of evidence detecti
 
 ## Installation:
 Before running the code, ensure that the following Python packages are installed:
-'''bash
+```bash
 pip install pandas scikit-learn nltk joblib
-'''
+```
 
 Additionally, you need to download the NLTK stopwords with:
-'''python
+```python
 import nltk
 nltk.download('stopwords')
-'''
+```
 
 ## File Descriptions:
 - `train.csv` - The training dataset containing claims, evidence, and labels.
