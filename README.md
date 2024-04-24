@@ -25,7 +25,7 @@ nltk.download('stopwords')
 The text data from the claims and evidence columns undergo preprocessing to remove non-alphabetical characters, convert to lowercase, and remove stopwords.
 
 ## Model Training:
-A RandomForest model is trained with class weight balancing to accommodate label imbalance. The model is saved to a .joblib file for later use.
+A RandomForest model is trained with class weight balancing to accommodate label imbalance. The model is saved to a .joblib file.
 
 ## Predictions:
 The trained model is used to predict the test dataset. Predictions are saved in a CSV file named Group_33_A.csv.
