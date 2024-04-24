@@ -34,8 +34,8 @@ This model is based upon a Random Forest classifier that was trained on over 23K
 
 <!-- Provide links where applicable. -->
 
-- **Repository:** [More Information Needed]
-- **Paper or documentation:** [More Information Needed]
+- **Repository:** [https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html]
+- **Paper or documentation:** [https://www.datacamp.com/tutorial/random-forests-classifier-python]
 
 ## Training Details
 
